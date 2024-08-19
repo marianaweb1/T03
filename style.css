@@ -1,0 +1,55 @@
+.ambiente div {
+    /*padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    text-align: center;
+}
+.ocupado{
+    background-color: rgb(218, 38, 38);
+    display: flex;
+    flex-direction: column; 
+}
+.livre{
+    background-color: rgb(85, 255, 96);
+    display: flex;
+    flex-direction: column; 
+}
+.manutencao{
+    background-color: rgb(205, 219, 19);
+    display: flex;
+    flex-direction: column; 
+}
+.estado-select{
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(20, 68, 20);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    padding-top: 1px;
+    height: 50px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 1px;
+    height: 40px;
+    background-color: rgb(20, 68, 20);
+    color: white;
+    text-align: center;
+
+}
+

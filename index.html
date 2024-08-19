@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana T3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Monitoramento de Ocupação - Bloco 3</h1>
+    </header>
+    <main>
+        <div class="ambiente ocupado">
+            <div id="ambiente1">
+                <h2>Sala de aula 1</h2>
+                <p id="estado1">Ocupado</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente1', 'estado1', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+            <div id="ambiente2">
+                <h2>Sala de aula 2</h2>
+                <p id="estado2">Ocupado</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente2', 'estado2', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+            <div id="ambiente3">
+                <h2>Sala de aula 3</h2>
+                <p id="estado3">Ocupado</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente3', 'estado3', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+        </div>
+        <div class="ambiente livre">
+            <div id="ambiente4">
+                <h2>Sala de Professores</h2>
+                <p id="estado4">Livre</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente4', 'estado4', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+            <div id="ambiente5">
+                <h2>Laboratório de Informática 1</h2>
+                <p id="estado5">Livre</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente5', 'estado5', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+            <div id="ambiente6">
+                <h2>Laboratório de Informática 2</h2>
+                <p id="estado6">Livre</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente6', 'estado6', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+        </div>
+        <div class="ambiente manutencao">
+            <div id="ambiente7">
+                <h2>Laboratório de Redes 1</h2>
+                <p id="estado7">Manutenção</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente7', 'estado7', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+            <div id="ambiente8">
+                <h2>Laboratório de Redes 2</h2>
+                <p id="estado8">Manutenção</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente8', 'estado8', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+            <div id="ambiente9">
+                <h2>Sala de aula 4</h2>
+                <p id="estado9">Manutenção</p>
+                <select class="estado-select" onchange="mudarEstado('ambiente9', 'estado9', this.value)">
+                    <option value="ocupado">Ocupado</option>
+                    <option value="livre">Livre</option>
+                    <option value="manutencao">Manutenção</option>
+                </select>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Este projeto é apenas ilustrativo. Esta página foi desenvolvida como atividade da
+            disciplina de Programação para Web I.</p>
+    </footer>
+
+</body>
+</html>
